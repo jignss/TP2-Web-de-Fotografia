@@ -1,0 +1,127 @@
+body {
+  font-family: "DancingScript";
+  background-color: #02010a;
+}
+
+.contenido {
+  max-width: 900px;
+  margin: auto;
+}
+
+img {
+  box-shadow: 2px 2px 0px #02010a;
+}
+
+@font-face {
+  font-family: "DancingScript";
+  src: url(../font/DancingScript-Regular.ttf);
+}
+
+header {
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  padding: 15px 0px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.titulo-cabezera {
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  text-indent: 19px;
+  font-size: 15px;
+  width:70%;
+}
+.menu-cabezera {
+  width: 30%;
+  font-size: 23px;
+  font-weight: bolder;
+  padding-right: -15px;
+}
+.menu-cabezera li {
+  display: inline;
+  padding: 15px;
+}
+.menu-cabezera a {
+  color: white;
+}
+#sinsub {
+  text-decoration: none;
+}
+
+#horizonte {
+  background-color: #82c3a6;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#horizonte img {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.fotos {
+  background-color: #d5c75f;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+}
+.foto img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+}
+.foto h2 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
+ #mar {
+   transition-property:transform,box-shadow,border-color;
+   transition-duration: 1s,1s,1s;
+ }
+ #mar:hover {
+   transform: rotate(10deg);
+   box-shadow: 2px 2px 0px #82c3a6;
+   border-color: #82c3a6;
+ }
+ #montañas {
+   transition-property: transform,box-shadow,border-color;
+   transition-duration: 1s,1s,1s;
+ }
+ #montañas:hover {
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px 0px #82c3a6;
+  border-color: #82c3a6;
+}
+
+.footer {
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding: 30px;
+}
+.footer h1{
+  margin-top:0px;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+.footer > div {
+  width: 25%;
+}
+.sub {
+  text-decoration: underline;
+}
+.footer h3{
+margin-top:1px;
+}
+h3>img {
+  height: 20px;
+}
+.derechos img {
+
+}
